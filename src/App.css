@@ -1,0 +1,139 @@
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.main-cntnr {
+  background: #f5f5f5;
+}
+
+.cntnr {
+  display: flex;
+  flex-direction: row;
+  height: 85vh;
+  padding: 16px 8px;
+  margin-top: 16px;
+  align-items: flex-start;
+  gap: 20px;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+}
+.minheight {
+  height: 32px;
+}
+.pmargin {
+  margin : 8px 0 0;
+  font-weight: 600;
+}
+.pmargin2 {
+  margin : 8px 0;
+  font-weight: 500;
+  color: green;
+}
+.ProductList {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10%;
+
+  justify-content: center;
+  gap: 12px;
+}
+
+.ProductDetails {
+margin: 16px;
+}
+.img-ctnr-lg { 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  width: 100%;
+} 
+.img-ctnr-sm { 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  width: 100%;
+} 
+.avatar {
+  width: auto;
+  height: 140px;
+  max-width: 100%;
+}
+.loader {
+  width: 100%;
+  height: auto;
+  background-color: rgb(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-card-container {
+  width: 28%;
+  border: 2px solid #92a0af;
+  border-radius: 8px;
+  padding: 16px;
+  background: #fff;
+  min-width: 200px;
+}
+.back-link {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: grey
+}
+.divHideScroll::-webkit-scrollbar {
+  width: 0 !important;
+}
+.divHideScroll {
+  height: 85vh;
+  overflow: scroll;
+}
+
+.add-button {
+  width: 100%;
+  background: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(0, 0, 0, 0.8);
+  border: 2px solid #cdcdcd;
+  padding: 10px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.remove-button {
+  width: 100%;
+  background: none;
+  font-size: 16px;
+  border: 2px solid #cdcdcd;
+  padding: 5px 12px;
+  border-radius: 4px;
+  color: red;
+}
+
+.cart-container {
+  margin: 0 8px;
+  border: 1px solid #cdcdcd;
+  border-radius: 8px;
+  width: 30%;
+  background: #fff;
+  padding: 16px;
+  min-width: 240px;
+}
+.select-product {
+  height: 27px;
+  background: gainsboro;
+  width: 128px;
+  padding: 0 16px;
+  margin: 0 8px 16px;
+  outline: none;
+}
